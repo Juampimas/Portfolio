@@ -1,0 +1,135 @@
+.open-nav{
+    transform: translateY(0) !important;
+}
+
+.navbar{
+    height: 6em;
+    width: 100%;
+    padding: 0 6%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        background-color:#282828;
+        width: 100%;
+        z-index: 100;
+        transform: translateY(-100%); 
+        transition: transform .5s ease-in;
+        .close{
+            width: 1.5em;
+            float: right;
+            margin: 2em 6% 0 0;
+            path{
+                fill: #27DEBF;
+            }   
+        }
+        ul{
+            margin-top: 7em;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            .link{
+                color: #fff;
+                text-decoration: none;
+                padding: 2em 0;
+                display: block;
+                font-size: 16px;
+                &:hover{
+                    cursor: pointer ;
+                }
+            }
+            .line{
+                height: 1px;
+                width: 70%;
+                margin: 0 auto;
+                background-color: #27DEBF;
+            }
+        }     
+    }
+    .cv-link{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid #27DEBF;
+        border-radius: 50px;
+        padding: 1em 1.5em;
+        gap: 1em;
+        text-decoration: none;
+        color: #27DEBF;
+        font-weight: 700;
+        transition: all 200ms ease;
+        &:hover{
+            background-color: #27DEBF;
+            color: #2E2E2E;
+            cursor: pointer;
+            svg{
+                path{
+                    fill: #2E2E2E;
+                }
+            }
+        }
+    }
+}
+
+
+@media only screen and (min-width: 992px){
+    .navbar{
+        height: 7em;
+        justify-content: space-between;
+        width: 100%;
+        nav{
+            flex: 1;
+            position: relative;
+            height: auto;
+            background: none;
+            transform: translateY(0);
+            .close{
+                display: none;
+            }
+            ul{
+                height: auto;
+                margin-top: 0;
+                margin-left: 0;
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                align-items: center;
+                list-style: none;
+                gap: 2em;
+                li{
+                    width: auto;
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: center;
+                }
+                .link{
+                    display: inline-block;
+                    width: auto;
+                    color: #fff;
+                    text-decoration: none;
+                    text-align: center;
+                    font-size: 16px;
+                    padding: 0;
+                    &:hover{
+                        cursor: pointer ;
+                        color: #27DEBF;
+                    }
+                }
+                .line{
+                    display: none;
+                }
+            }
+        }
+        .menu{
+            display: none;
+        }
+    }
+}
+
+  
