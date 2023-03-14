@@ -1,0 +1,47 @@
+footer{
+    padding: 4em 6%;
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+    background-color: #282828;
+    .footer-circle{
+        position: relative;
+        width: 5em;
+        height: 5em;
+        border: 1px solid #27DEBF;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 200ms ease;
+        &:hover{
+            background-color: #27DEBF;
+            cursor: pointer;
+            svg{
+                path{
+                    fill: #2E2E2E;
+                }
+            }
+        }
+        .copiado{
+            position: absolute;
+            top: -3em;
+            left: 0;
+            background-color: #2E2E2E;
+            border-radius: 10px;
+            padding: .7em 1em;
+            p{
+                color: #fff;
+            }
+        }
+    }
+}
+
+@media only screen and (min-width:992px){
+    footer{
+        gap: 3em;
+    }
+}

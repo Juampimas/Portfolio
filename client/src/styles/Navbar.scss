@@ -40,6 +40,7 @@
                 padding: 2em 0;
                 display: block;
                 font-size: 16px;
+                font-weight: 700;
                 &:hover{
                     cursor: pointer ;
                 }
@@ -51,6 +52,13 @@
                 background-color: #27DEBF;
             }
         }     
+        .idioma{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            margin-top: 2em;
+        }
     }
     .cv-link{
         display: flex;
@@ -84,11 +92,12 @@
         justify-content: space-between;
         width: 100%;
         nav{
-            flex: 1;
             position: relative;
             height: auto;
             background: none;
             transform: translateY(0);
+            display: flex;
+            flex: 1;
             .close{
                 display: none;
             }
@@ -101,7 +110,7 @@
                 justify-content: flex-start;
                 align-items: center;
                 list-style: none;
-                gap: 2em;
+                gap: 3em;
                 li{
                     width: auto;
                     display: flex;
@@ -123,6 +132,19 @@
                 }
                 .line{
                     display: none;
+                }
+            }
+            .idioma{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+                margin-top: 0;
+                margin-left: 3em;
+                .idioma-item{
+                    &:hover{
+                        cursor: pointer;
+                    }
                 }
             }
         }

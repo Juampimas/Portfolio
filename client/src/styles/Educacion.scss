@@ -1,0 +1,109 @@
+#educacion{
+    height: auto;
+    width: 100%;
+    padding: 4em 6% 3em;
+    .edu-text{
+        margin: 0 auto;
+        text-align: center;
+        h3{
+            font-weight: 700;
+            font-size: 16px;
+            color: #27DEBF;
+        }
+        h2{
+            font-weight: 800;
+            font-size: 1.8rem;
+        }
+    }
+    .edu-container{
+        margin-top: 3em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .edu-items{
+            .edu-item{
+                background: #282828;
+                box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.25);
+                border-radius: 33px;
+                padding: 1.5em;
+                max-width: 25em;
+                height: auto;
+                margin-bottom: 2em;
+                .item-header{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    gap: 1em;
+                    color: #27DEBF;
+                    h4{
+                        font-size: 20px;
+                    }
+                }
+                p{
+                    margin: 1em 0;
+                }
+                .item-footer{
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    span{
+                        color: #27DEBF;
+                        font-weight: 700;
+                        display: inline-block;
+                        margin-right: .5em;
+                    }
+                    .item-link{
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        gap: .5em;
+                        color: #27DEBF;
+                        border: 1px solid #27DEBF;
+                        padding: .7em 1em;
+                        border-radius: 30px;
+                        transition: all 200ms ease;
+                        &:hover{
+                            background-color: #27DEBF;
+                            color: #2E2E2E;
+                            cursor: pointer;
+                            svg{
+                                path{
+                                    fill: #2E2E2E;
+                                }
+                            }
+                        }
+                        p{
+                            margin: 0;
+                            font-weight: 700;
+                            font-size: 12px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (min-width: 992px){
+    .edu-items{
+        display: flex;
+        flex-direction: row;
+        gap: 2em;
+        .edu-item{
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
+            justify-content: center;
+            .item-header{
+                svg{
+                    margin:0 1em;
+                }
+            }
+            .item-footer{
+                width: 100%;
+                justify-content: space-between;
+            }
+        }
+    }
+}
