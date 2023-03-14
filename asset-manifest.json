@@ -1,13 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.3b762b4e.css",
-    "main.js": "/Portfolio/static/js/main.71237c39.js",
+    "main.js": "/Portfolio/static/js/main.f9c569a7.js",
+    "static/media/Certificado-CAE.pdf": "/Portfolio/static/media/Certificado-CAE.ab41b14449d55c6ccaab.pdf",
+    "static/media/Bachiller.jpg": "/Portfolio/static/media/Bachiller.e9ddf6c275cd71eb5f79.jpg",
+    "static/media/sobremi-img.png": "/Portfolio/static/media/sobremi-img.f75d1aa26522379b3980.png",
+    "static/media/Certificado-Carrera-Fullstack.png": "/Portfolio/static/media/Certificado-Carrera-Fullstack.46ed4c2de0c1ee0075aa.png",
+    "static/media/banner-img.png": "/Portfolio/static/media/banner-img.9b952c6a666d7547aa8e.png",
+    "static/media/CV-JuanPabloMas.pdf": "/Portfolio/static/media/CV-JuanPabloMas.8c7784c9cd1c78794350.pdf",
+    "static/media/Licenciatura.jpeg": "/Portfolio/static/media/Licenciatura.ebd29109e787d50ab81c.jpeg",
+    "static/media/es.svg": "/Portfolio/static/media/es.e3db1b5f8a2ec8ae87640f32237c01b3.svg",
+    "static/media/us.svg": "/Portfolio/static/media/us.d8b63826d8d60830324e70ab0b5452f0.svg",
     "index.html": "/Portfolio/index.html",
     "main.3b762b4e.css.map": "/Portfolio/static/css/main.3b762b4e.css.map",
-    "main.71237c39.js.map": "/Portfolio/static/js/main.71237c39.js.map"
+    "main.f9c569a7.js.map": "/Portfolio/static/js/main.f9c569a7.js.map"
   },
   "entrypoints": [
     "static/css/main.3b762b4e.css",
-    "static/js/main.71237c39.js"
+    "static/js/main.f9c569a7.js"
   ]
 }
