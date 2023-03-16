@@ -1,10 +1,11 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 
-const archivo_ingles = "http://localhost:3000/Certificado-CAE.pdf";
-const archivo_fullStack = "http://localhost:3000/Certificado-Carrera-Fullstack.png";
-const archivo_bachiller = "http://localhost:3000/Bachiller.jpg";
-const archivo_licenciatura = "http://localhost:3000/Licenciatura.jpeg";
+import archivo_ingles from "../imgs/Certificado-CAE.pdf"
+import archivo_fullStack from "../imgs/Certificado-Carrera-Fullstack.png"
+import archivo_bachiller from "../imgs/Bachiller.jpg"
+import archivo_licenciatura from "../imgs/Licenciatura.jpeg"
+
 
 function Educacion() {
 

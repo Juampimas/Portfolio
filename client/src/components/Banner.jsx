@@ -2,6 +2,8 @@ import React from 'react'
 import {HashLink as Link} from "react-router-hash-link";
 import { useTranslation } from 'react-i18next';
 
+import perfil from "../imgs/banner-img.png"
+
 function Banner() {
 
   const [t] = useTranslation("global")
@@ -12,7 +14,7 @@ function Banner() {
             <h1>{t("banner.banner_title")}<span>{t("banner.banner_title2")}</span>{t("banner.banner_title3")}<span>{t("banner.banner_title4")}</span></h1>
             <p>{t("banner.banner_text")}</p>
         </div>
-        <img src="./banner-img.png" alt="Banner img" />
+        <img src={perfil} alt="Banner img" />
         <Link to={"#sobreMi"}>
         <div className="dropdown">
             <svg width="22" height="13" viewBox="0 0 22 13" fill="none" xmlns="http://www.w3.org/2000/svg">

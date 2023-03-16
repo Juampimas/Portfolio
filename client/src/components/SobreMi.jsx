@@ -1,6 +1,8 @@
 import React from 'react'
 import { useTranslation } from 'react-i18next';
 
+import sobreMi_img from "../imgs/sobremi-img.png"
+
 function SobreMi() {
 
 const [t] = useTranslation("global")
@@ -27,7 +29,7 @@ const [t] = useTranslation("global")
                 </div>
             </div>
         </div>
-        <img src="../sobremi-img.png" alt="sobremi-img" />
+        <img src={sobreMi_img} alt="sobremi-img" />
     </div>
   )
 }

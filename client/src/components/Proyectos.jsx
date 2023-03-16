@@ -112,7 +112,7 @@ const [t] = useTranslation("global")
                         <p>{t("proyectos.pro_item4_text")}</p>
                         <div className="pro-footer">
                             <p><span>{t("proyectos.pro_item_year")}</span> {t("proyectos.pro_item4_year")}</p>
-                            <Link className='btn-site'>
+                            <Link to="https://github.com/Juampimas/Tienda-ecommerce" target="_blank" className='btn-site'>
                                 <div className="pro-btn">
                                     <p>{t("proyectos.pro_item_btn")}</p>
                                 </div>
