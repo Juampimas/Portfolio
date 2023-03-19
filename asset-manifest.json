@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.3b762b4e.css",
-    "main.js": "/Portfolio/static/js/main.f9c569a7.js",
+    "main.css": "/Portfolio/static/css/main.d70f85b1.css",
+    "main.js": "/Portfolio/static/js/main.b6cbae82.js",
     "static/media/Certificado-CAE.pdf": "/Portfolio/static/media/Certificado-CAE.ab41b14449d55c6ccaab.pdf",
     "static/media/Bachiller.jpg": "/Portfolio/static/media/Bachiller.e9ddf6c275cd71eb5f79.jpg",
     "static/media/sobremi-img.png": "/Portfolio/static/media/sobremi-img.f75d1aa26522379b3980.png",
@@ -12,11 +12,11 @@
     "static/media/es.svg": "/Portfolio/static/media/es.e3db1b5f8a2ec8ae87640f32237c01b3.svg",
     "static/media/us.svg": "/Portfolio/static/media/us.d8b63826d8d60830324e70ab0b5452f0.svg",
     "index.html": "/Portfolio/index.html",
-    "main.3b762b4e.css.map": "/Portfolio/static/css/main.3b762b4e.css.map",
-    "main.f9c569a7.js.map": "/Portfolio/static/js/main.f9c569a7.js.map"
+    "main.d70f85b1.css.map": "/Portfolio/static/css/main.d70f85b1.css.map",
+    "main.b6cbae82.js.map": "/Portfolio/static/js/main.b6cbae82.js.map"
   },
   "entrypoints": [
-    "static/css/main.3b762b4e.css",
-    "static/js/main.f9c569a7.js"
+    "static/css/main.d70f85b1.css",
+    "static/js/main.b6cbae82.js"
   ]
 }
