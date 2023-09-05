@@ -30,12 +30,11 @@
             align-items: center;
             gap: 2em;
             .pro-item{
-                width: 100%;
-                max-height: 23em;
+                width: 30em;
+                max-height: 9em;
                 background: #282828;
                 box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.25);
                 border-radius: 33px;
-                max-width: 25em;
                 .pro-img{
                     box-shadow: inset 5px 5px 4px rgba(0, 0, 0, 0.25);
                     height: 3em;
@@ -43,16 +42,14 @@
                     border-radius: 33px 33px 0 0;
                 }
                 .pro-desc{
-                    padding: 1.5em;
+                    padding: 0 1.5em ;
+                    width: 100%;
                     h4{
                         color: #27DEBF;
                         font-size: 20px;
                     }
-                    p{
-                        margin: 1em 0;
-                        line-height: 1.4rem;
-                    }
                     .pro-footer{
+                        margin: 2em 0 0;
                         display: flex;
                         justify-content: space-between;
                         align-items: center;
@@ -60,7 +57,6 @@
                             color: #27DEBF;
                             font-weight: 700;
                             display: inline-block;
-                            margin-right: .5em;
                         }
                         .btn-site{
                             color: #27DEBF;

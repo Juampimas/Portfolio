@@ -54,7 +54,11 @@
         "pro_item5_year": "2021",
         "pro_item6_title": "Animus Landing Page",
         "pro_item6_text": "This Landing Page was one of my first projects as a freelancer. Designed and developed using: Figma - HTML - SCSS - Javascript",
-        "pro_item6_year": "2021"
+        "pro_item6_year": "2021",
+        "pro_item7_year": "2023",
+        "pro_item7_title": "Web site Boid",
+        "pro_item8_year": "2023",
+        "pro_item8_title": "Rick & Morty App"
     },
     "habilidades": {
         "hab_subTitle": "ABOUT",
